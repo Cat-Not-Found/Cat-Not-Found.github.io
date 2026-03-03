@@ -1,11 +1,11 @@
 {
     "Version": 1,
-    "Name": "藿藿",
+    "Name": "fofo",
     "ModelID": "56b1c63efec645cd94b11d3055a825fa",
     "FileReferences": {
         "Icon": "",
-        "Model": "藿藿.model3.json",
-        "IdleAnimation": "Scene1 复制 复制.motion3.json",
+        "Model": "fofo.model3.json",
+        "IdleAnimation": "Scene1 copy copy.motion3.json",
         "IdleAnimationWhenTrackingLost": ""
     },
     "ModelSaveMetadata": {
@@ -776,7 +776,7 @@
             "HotkeyID": "7a4bd0b75b694ca39ca0f158de62a226",
             "Name": "抱枕",
             "Action": "ToggleExpression",
-            "File": "抱枕.exp3.json",
+            "File": "baozhen.exp3.json",
             "Folder": "",
             "Position": {
                 "X": 0.0,
@@ -845,7 +845,7 @@
             "HotkeyID": "c1e751f5bec04ac7987c82efe3f450e1",
             "Name": "拿旗子",
             "Action": "ToggleExpression",
-            "File": "拿旗子.exp3.json",
+            "File": "naqizi.exp3.json",
             "Folder": "",
             "Position": {
                 "X": 0.0,
@@ -914,7 +914,7 @@
             "HotkeyID": "f845be91b70b48f8ad9e1598c5d74cdc",
             "Name": "白眼",
             "Action": "ToggleExpression",
-            "File": "白眼.exp3.json",
+            "File": "baiyan.exp3.json",
             "Folder": "",
             "Position": {
                 "X": 0.0,
@@ -983,7 +983,7 @@
             "HotkeyID": "adf8ea786391473faa83b4f1b34bdd23",
             "Name": "眼泪",
             "Action": "ToggleExpression",
-            "File": "眼泪.exp3.json",
+            "File": "yanlei.exp3.json",
             "Folder": "",
             "Position": {
                 "X": 0.0,
@@ -1052,7 +1052,7 @@
             "HotkeyID": "546caaf7c0064663a73670059bd46011",
             "Name": "黑脸",
             "Action": "ToggleExpression",
-            "File": "黑脸.exp3.json",
+            "File": "heilian.exp3.json",
             "Folder": "",
             "Position": {
                 "X": 0.0,
