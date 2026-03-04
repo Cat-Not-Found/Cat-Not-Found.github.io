@@ -5,7 +5,7 @@
     "FileReferences": {
         "Icon": "",
         "Model": "fofo.model3.json",
-        "IdleAnimation": "Scene1 copy copy.motion3.json",
+        "IdleAnimation": "Scene1.motion3.json",
         "IdleAnimationWhenTrackingLost": ""
     },
     "ModelSaveMetadata": {

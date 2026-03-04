@@ -3,13 +3,53 @@
 	"FileReferences": {
 		"Moc": "fofo.moc3",
 		"Textures": [
-			"fofo.8192/texture_00.png",
-			"fofo.8192/texture_01.png",
-			"fofo.8192/texture_02.png",
-			"fofo.8192/texture_03.png"
+			"fofo.8192/texture_00.webp",
+			"fofo.8192/texture_01.webp",
+			"fofo.8192/texture_02.webp",
+			"fofo.8192/texture_03.webp"
 		],
 		"Physics": "fofo.physics3.json",
-		"DisplayInfo": "fofo.cdi3.json"
+		"DisplayInfo": "fofo.cdi3.json",
+        "Expressions": [ 
+            {
+                "Name": "黑脸",
+                "File": "heilian.exp3.json"
+            },
+			{
+                "Name": "白眼",
+                "File": "baiyan.exp3.json"
+            },
+			{
+                "Name": "拿旗子R",
+                "File": "naqizi.exp3.json"
+            },
+            {
+                "Name": "眼泪",
+                "File": "yanlei.exp3.json"
+            }
+        ],
+		"Motions": {
+			"TapBody": [
+				{
+				"File": "qizi.motion3.json",
+				"Loop": false, 
+				"FadeInTime": 0.2,
+				"FadeOutTime": 0.5
+				},
+				{
+				"File": "Scene1.motion3.json",
+				"Loop": false, 
+				"FadeInTime": 0.2,
+				"FadeOutTime": 0.5
+				},
+				{
+				"File": "yaotou.json",
+				"Loop": false, 
+				"FadeInTime": 0.2,
+				"FadeOutTime": 0.5
+				}
+			]
+		}
 	},
 	"Groups": [
 		{

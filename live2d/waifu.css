@@ -23,16 +23,15 @@
 }
 
 #waifu {
-	bottom: -1000px;
-	left: 0;
-	line-height: 0;
-	margin-bottom: -10px;
-	position: fixed;
-	transform: translateY(3px);
-	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
-	z-index: 1;
-	will-change: transform; /* 提前告知浏览器该元素将频繁变化，启用 GPU 加速 */
-    transform: translateZ(0); /* 强制开启独立的 GPU 图层 */
+    bottom: -1000px;
+    left: auto;
+    right: 50px;
+    line-height: 0;
+    margin-bottom: -10px;
+    position: fixed;
+    transform: translateY(3px);
+    transition: transform .3s ease-in-out, bottom 3s ease-in-out;
+    z-index: 10;
 }
 
 #waifu:hover {
@@ -80,12 +79,13 @@
 }
 
 #waifu-tool {
-	color: #aaa;
-	opacity: 0;
-	position: absolute;
-	right: 15px;
-	top: 55px;
-	transition: opacity 1s;
+    color: #aaa;
+    opacity: 0;
+    position: absolute;
+    right: auto;
+    left: 0px; 
+    top: 55px;
+    transition: opacity 1s;
 }
 
 #live2d:hover +#waifu-tool {
