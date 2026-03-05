@@ -43,7 +43,7 @@
 				"FadeOutTime": 0.5
 				},
 				{
-				"File": "yaotou.json",
+				"File": "yaotou.motion3.json",
 				"Loop": false, 
 				"FadeInTime": 0.2,
 				"FadeOutTime": 0.5
