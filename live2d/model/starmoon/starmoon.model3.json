@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "starmoon.moc3",
+		"Textures": [
+			"starmoon.8192/texture_00.png"
+		],
+		"Physics": "starmoon.physics3.json",
+		"DisplayInfo": "starmoon.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthForm2",
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}
