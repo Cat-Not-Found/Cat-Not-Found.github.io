@@ -32,6 +32,8 @@
     transform: translateY(3px);
     transition: transform .3s ease-in-out, bottom 3s ease-in-out;
     z-index: 10;
+	will-change: transform; /* 提前告知浏览器该元素将频繁变化，启用 GPU 加速 */
+    transform: translateZ(0); /* 强制开启独立的 GPU 图层 */
 }
 
 #waifu:hover {
