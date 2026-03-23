@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>First try</title>
+      <link href="/posts/b92c908f.html"/>
+      <url>/posts/b92c908f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br></pre></td></tr></table></figure><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
@@ -21,10 +34,10 @@
     
     <entry>
       <title></title>
-      <link href="/manifest.json"/>
-      <url>/manifest.json</url>
+      <link href="/css/modify.css"/>
+      <url>/css/modify.css</url>
       
-        <content type="html"><![CDATA[{"name":"Shiiyu小屋","short_name":"Shiiyu小屋","scope":"/","start_url":"/","theme_color":"#212121","background_color":"#212121","display":"standalone","icons":[{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}]]></content>
+        <content type="html"><![CDATA[#page-header {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;  text-align: center;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0.5);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
       
     </entry>
     
@@ -32,10 +45,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/modify.css"/>
-      <url>/css/modify.css</url>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[#page-header {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;  text-align: center;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0.5);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
+        <content type="html"><![CDATA[{"name":"Shiiyu小屋","short_name":"Shiiyu小屋","scope":"/","start_url":"/","theme_color":"#212121","background_color":"#212121","display":"standalone","icons":[{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}]]></content>
       
     </entry>
     
