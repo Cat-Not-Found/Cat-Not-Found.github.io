@@ -4,9 +4,9 @@
     <name>時雨</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
-  <id>http://example.com/</id>
-  <link href="http://example.com/" rel="alternate"/>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <id>https://www.shiiyu.xyz/</id>
+  <link href="https://www.shiiyu.xyz/" rel="alternate"/>
+  <link href="https://www.shiiyu.xyz/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, 時雨</rights>
   <subtitle>今天也要开心呀</subtitle>
   <title>時雨のBlog</title>
@@ -18,8 +18,8 @@
     <content>
       <![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br></pre></td></tr></table></figure><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul>]]>
     </content>
-    <id>http://example.com/posts/b92c908f.html</id>
-    <link href="http://example.com/posts/b92c908f.html"/>
+    <id>https://www.shiiyu.xyz/posts/b92c908f.html</id>
+    <link href="https://www.shiiyu.xyz/posts/b92c908f.html"/>
     <published>2026-03-22T07:38:47.000Z</published>
     <summary>
       <![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</]]>
@@ -34,8 +34,8 @@
     <content>
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
     </content>
-    <id>http://example.com/posts/4a17b156.html</id>
-    <link href="http://example.com/posts/4a17b156.html"/>
+    <id>https://www.shiiyu.xyz/posts/4a17b156.html</id>
+    <link href="https://www.shiiyu.xyz/posts/4a17b156.html"/>
     <published>2026-03-03T05:35:45.623Z</published>
     <summary>
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
