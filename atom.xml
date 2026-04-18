@@ -8,24 +8,22 @@
   <link href="https://www.shiiyu.xyz/" rel="alternate"/>
   <link href="https://www.shiiyu.xyz/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, 時雨</rights>
-  <subtitle>今天也要开心呀</subtitle>
+  <subtitle>今天也要开心</subtitle>
   <title>時雨のBlog</title>
-  <updated>2026-03-22T07:58:38.734Z</updated>
+  <updated>2026-04-18T10:35:27.599Z</updated>
   <entry>
     <author>
       <name>時雨</name>
     </author>
     <content>
-      <![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br></pre></td></tr></table></figure><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul>]]>
+      <![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br></pre></td></tr></table></figure><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul><script type="math/tex; mode=display">E=mc^2</script>]]>
     </content>
     <id>https://www.shiiyu.xyz/posts/b92c908f.html</id>
     <link href="https://www.shiiyu.xyz/posts/b92c908f.html"/>
     <published>2026-03-22T07:38:47.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="This-is-the-first-try"><a href="#This-is-the-first-try" class="headerlink" title="This is the first try"></a>This is the first try</]]>
-    </summary>
+    <summary>这是一个尝试</summary>
     <title>First try</title>
-    <updated>2026-03-22T07:58:38.734Z</updated>
+    <updated>2026-04-18T10:35:27.599Z</updated>
   </entry>
   <entry>
     <author>
