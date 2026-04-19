@@ -4,7 +4,7 @@
   <url>
     <loc>https://www.shiiyu.xyz/posts/b92c908f.html</loc>
     
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/js/icon/iconfont.json</loc>
+    <loc>https://www.shiiyu.xyz/js/icon/demo_index.html</loc>
     
     <lastmod>2026-04-16</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/js/icon/demo_index.html</loc>
+    <loc>https://www.shiiyu.xyz/js/icon/iconfont.json</loc>
     
     <lastmod>2026-04-16</lastmod>
     
@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://www.shiiyu.xyz/</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
