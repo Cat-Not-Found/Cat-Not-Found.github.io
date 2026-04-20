@@ -10,24 +10,24 @@
   <rights>All rights reserved 2026, 時雨</rights>
   <subtitle>今天也要开心</subtitle>
   <title>時雨のBlog</title>
-  <updated>2026-04-20T08:05:20.113Z</updated>
+  <updated>2026-04-20T14:21:06.027Z</updated>
   <entry>
     <author>
       <name>時雨</name>
     </author>
     <category term="华为基座项目" scheme="https://www.shiiyu.xyz/categories/%E5%8D%8E%E4%B8%BA%E5%9F%BA%E5%BA%A7%E9%A1%B9%E7%9B%AE/"/>
-    <category term="知识追踪" scheme="https://www.shiiyu.xyz/categories/%E5%8D%8E%E4%B8%BA%E5%9F%BA%E5%BA%A7%E9%A1%B9%E7%9B%AE/%E7%9F%A5%E8%AF%86%E8%BF%BD%E8%B8%AA/"/>
-    <category term="知识追踪" scheme="https://www.shiiyu.xyz/tags/%E7%9F%A5%E8%AF%86%E8%BF%BD%E8%B8%AA/"/>
-    <category term="论文" scheme="https://www.shiiyu.xyz/tags/%E8%AE%BA%E6%96%87/"/>
-    <category term="综述" scheme="https://www.shiiyu.xyz/tags/%E7%BB%BC%E8%BF%B0/"/>
+    <category term="鸿蒙HarmonyOS" scheme="https://www.shiiyu.xyz/categories/%E5%8D%8E%E4%B8%BA%E5%9F%BA%E5%BA%A7%E9%A1%B9%E7%9B%AE/%E9%B8%BF%E8%92%99HarmonyOS/"/>
+    <category term="鸿蒙HarmonyOS" scheme="https://www.shiiyu.xyz/tags/%E9%B8%BF%E8%92%99HarmonyOS/"/>
+    <category term="DevEco Studio" scheme="https://www.shiiyu.xyz/tags/DevEco-Studio/"/>
+    <category term="ArkTS" scheme="https://www.shiiyu.xyz/tags/ArkTS/"/>
     <content>
-      <![CDATA[<h1>知识追踪的概念</h1><p>你好我喜欢流萤。</p>]]>
+      <![CDATA[<h1>HarmonyOS 简介</h1><hr><h2 id="什么是-HarmonyOS">什么是 HarmonyOS</h2><p>随着万物互联时代的开启，应用的设备底座将从几十亿手机扩展到数百亿IoT设备。全新的全场景设备体验，正深入改变消费者的使用习惯。 同时应用开发者也面临设备底座从手机单设备到全场景多设备的转变，全场景多设备的全新底座，为消费者带来万物互联时代更为高效、便捷的体验。</p><p>新的场景同时也带来了新的挑战。开发者不仅需要支持更加多样化的设备，还需要支持跨设备的协作。不同设备类型意味着不同的传感器能力、硬件能力、屏幕尺寸、操作系统和开发语言，还意味着差异化的交互方式。同时跨设备协作也让开发者面临分布式开发带来的各种复杂性，例如跨设备的网络通信、数据同步等。若采取传统开发模式，适配和管理工作量将非常巨大。</p><p>当前移动应用开发中遇到的主要挑战包括：</p><ul><li>针对不同设备上的不同操作系统，重复开发，维护多套版本。</li><li>多种语言栈，对人员技能要求高。</li><li>多种开发框架，不同的编程范式。</li><li>命令式编程，需关注细节，变更频繁，维护成本高。</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br></pre></td></tr></table></figure><h1>DevEco Studio 上手</h1><hr><h2 id="如何下载-DevEco-Studio">如何下载 DevEco Studio</h2><p>华为使用 <code>DevEco Studio</code> 进行基础开发。</p><div class="flink"><div class="flink-name">参考链接</div><div class="flink-list">      <div class="flink-list-item">        <a href="https://developer.huawei.com/consumer/cn/" title="华为Developers" target="_blank">          <div class="flink-item-icon">            <img class="no-lightbox" src="/img/body/huawei.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="华为Developers" />          </div>          <div class="flink-item-name">华为Developers</div>          <div class="flink-item-desc" title="Make it possible together">Make it possible together</div>        </a>      </div></div></div>]]>
     </content>
     <id>https://www.shiiyu.xyz/posts/54c53dab.html</id>
     <link href="https://www.shiiyu.xyz/posts/54c53dab.html"/>
-    <published>2026-04-20T05:24:17.000Z</published>
-    <summary>本文结合了知识追踪领域的相关文献，系统梳理了其发展脉络。</summary>
-    <title>知识追踪模型(Knowledge Tracing, KT)相关研究综述</title>
-    <updated>2026-04-20T08:05:20.113Z</updated>
+    <published>2026-04-20T13:37:31.000Z</published>
+    <summary>本节参考华为HarmonyOS开发者学堂内容，初步介绍鸿蒙开发的相关概念和基本使用</summary>
+    <title>HarmonyOS学习日志(一)</title>
+    <updated>2026-04-20T14:21:06.027Z</updated>
   </entry>
 </feed>
