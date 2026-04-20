@@ -40,6 +40,7 @@
   .top-img {
     height: 230px;
     margin: -36px -14px 36px;
+    background-position: right center !important;
   }
 }
 [data-theme='dark'] .top-img {
