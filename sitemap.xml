@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.shiiyu.xyz/posts/8b67de6f.html</loc>
-    
-    <lastmod>2026-04-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.shiiyu.xyz/posts/a3d74738.html</loc>
     
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +76,7 @@
 
   <url>
     <loc>https://www.shiiyu.xyz/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,28 +84,14 @@
   
   <url>
     <loc>https://www.shiiyu.xyz/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E9%B8%BF%E8%92%99HarmonyOS/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/DevEco-Studio/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/ArkTS/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <loc>https://www.shiiyu.xyz/tags/%E5%90%B4%E6%81%A9%E8%BE%BE/</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -123,21 +100,7 @@
   
   <url>
     <loc>https://www.shiiyu.xyz/categories/AI/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/categories/%E5%8D%8E%E4%B8%BA%E5%9F%BA%E5%BA%A7%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/categories/%E5%8D%8E%E4%B8%BA%E5%9F%BA%E5%BA%A7%E9%A1%B9%E7%9B%AE/%E9%B8%BF%E8%92%99HarmonyOS/</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
