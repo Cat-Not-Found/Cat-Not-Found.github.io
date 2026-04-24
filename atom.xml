@@ -10,22 +10,42 @@
   <rights>All rights reserved 2026, 時雨</rights>
   <subtitle>今天也要开心</subtitle>
   <title>時雨のBlog</title>
-  <updated>2026-04-23T08:40:47.715Z</updated>
+  <updated>2026-04-24T10:20:30.169Z</updated>
   <entry>
     <author>
       <name>時雨</name>
     </author>
     <category term="AI" scheme="https://www.shiiyu.xyz/categories/AI/"/>
+    <category term="机器学习" scheme="https://www.shiiyu.xyz/categories/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <category term="机器学习" scheme="https://www.shiiyu.xyz/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <category term="吴恩达" scheme="https://www.shiiyu.xyz/tags/%E5%90%B4%E6%81%A9%E8%BE%BE/"/>
+    <category term="回归模型" scheme="https://www.shiiyu.xyz/tags/%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
+    <content>
+      <![CDATA[<h1>线性回归的模型描述</h1><div class="flink"><div class="flink-name">参考网站</div><div class="flink-list">      <div class="flink-list-item">        <a href="https://www.bilibili.com/video/BV164411b7dx" title="课程视频" target="_blank">          <div class="flink-item-icon">            <img class="no-lightbox" src="/img/body/mlearning.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="课程视频" />          </div>          <div class="flink-item-name">课程视频</div>          <div class="flink-item-desc" title="吴恩达机器学习">吴恩达机器学习</div>        </a>      </div>      <div class="flink-list-item">        <a href="https://github.com/TheisTrue/MLofAndrew-Ng" title="课程讲义" target="_blank">          <div class="flink-item-icon">            <img class="no-lightbox" src="/img/body/github.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="课程讲义" />          </div>          <div class="flink-item-name">课程讲义</div>          <div class="flink-item-desc" title="吴恩达机器学习">吴恩达机器学习</div>        </a>      </div></div></div>]]>
+    </content>
+    <id>https://www.shiiyu.xyz/posts/MLearning2.html</id>
+    <link href="https://www.shiiyu.xyz/posts/MLearning2.html"/>
+    <published>2026-04-24T16:00:00.000Z</published>
+    <summary>本节是吴恩达机器学习课程的学习日志(二)，主要介绍线性回归模型。</summary>
+    <title>Machine Learning(二)</title>
+    <updated>2026-04-24T10:20:30.169Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>時雨</name>
+    </author>
+    <category term="AI" scheme="https://www.shiiyu.xyz/categories/AI/"/>
+    <category term="机器学习" scheme="https://www.shiiyu.xyz/categories/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     <category term="机器学习" scheme="https://www.shiiyu.xyz/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     <category term="吴恩达" scheme="https://www.shiiyu.xyz/tags/%E5%90%B4%E6%81%A9%E8%BE%BE/"/>
     <content>
-      <![CDATA[<p>还没有更新哦</p>]]>
+      <![CDATA[<h1>机器学习的初步概念</h1><hr><p><strong>机器学习</strong>(<em>Machine Learning</em>)是人工智能领域的一个分支，其目的是使计算机系统能够利用数据和算法进行<strong>自动学习</strong>，以不断改进其性能和表现。粗略的讲，机器学习就是找出一种让计算机学习的方法，不直接人为地编写复杂的规则，而是让计算机从大量数据中自动找出规律和模式。</p><p>机器学习的应用可以举以下几个例子</p><ul><li>数据挖掘(<em>Database Mining</em>)：从大量的数据中通过算法搜索隐藏于其中信息的过程。<ul><li>举例：网站浏览数据、医疗记录、生物学、工程学等</li></ul></li><li>编写复杂程序：依据特定算法使得计算机学习如何完成复杂编程任务。<ul><li>举例：手写数字识别、自然语言处理(<em>NLP</em>)、计算机视觉(<em>CV</em>)</li></ul></li><li>个性化推荐系统：软件根据用户使用情况自动学习并推荐相关内容。<ul><li>亚马逊、网飞、谷歌等软件的推荐系统</li></ul></li></ul><h1>机器学习的定义</h1><hr><p>Arthur Samuel(1959) 曾对机器学习的定义如下</p><div class="note default simple"><p><em>Field of study that gives computers the ability to learn without being explicitly programmed.</em><br><em>赋予计算机在没有明确编程指令下学习能力的研究领域。</em></p></div><p>Samuel 提出的此概念较为陈旧，于是作者吴恩达的好友 Tom Mitchell(1998) 重新叙述如下</p><div class="note default simple"><p><em>Well-posed Lerning Problem is defined as: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.</em><br><em>一个适当的学习任务定义如下：如果计算机程序在完成某类任务T时，通过经验E在某一表现度量P下的表现有所提高，则称该程序从经验E中学习。</em></p></div><p>举一个例子来说明这个定义。假设你的邮箱系统可以监测你将哪些邮件标记为垃圾邮件，并且基于这种偏好去学习如何在未来更好的自动过滤垃圾邮件，那么这个例子中</p><ul><li>任务 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">T</span></span></span></span>：把某个邮件分类为“垃圾邮件”或“非垃圾邮件”</li><li>经验 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0576em;">E</span></span></span></span>：监测你将哪些邮件标记为垃圾邮件</li><li>度量 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span></span></span></span>：完成任务 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">T</span></span></span></span> 的正确率</li></ul><h1>机器学习的分类</h1><hr><p>机器学习算法可以主要分为以下几类</p><ol><li><strong>监督学习</strong>(<em>Supervised learning</em>)：计算机在人为指导下进行机器学习</li><li><strong>无监督学习</strong>(<em>Unsupervised Learning</em>)：计算机自主进行机器学习</li><li>其他：如强化学习(<em>Reinforcement Learning</em>)、聚类算法等</li></ol><h2 id="监督学习">监督学习</h2><p>我们先举一个例子：假设你的朋友在某地有一所占地 750 平方英尺的房子将要卖出，他收集了当地部分已卖出房屋的数据，包括房屋尺寸和成交价(数据点坐标记为<span class='p red'>×</span>)。</p><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"/img/body/m1f1.png","alt":"房屋价格预测","title":""}]</div>  </div><p>现在他想要知道自己的房子可以卖多少钱，我们可以使用两种拟合方法</p><ul><li>线性拟合：用紫色的一次函数可以估算价格为150K美元。</li><li>二次多项式拟合：用蓝色的二次函数可以估算价格为200K美元。</li></ul><p>在这个例子中，我们给的数据集(已卖出的房屋数据)是正确的，那么利用监督算法估算房屋出售价格就是要确定某个回归模型，并基于正确的指标数据集给出“相对正确”的输出，因此这类问题也称作<strong>回归问题</strong>(<em>Regression</em>)。在此问题中，回归输出是一个离散的数字(价格)，而回归通常针对于连续数据。</p><p>现在再看另一个例子：某种癌症的肿瘤有良性和恶性之分，已知部分患者的肿瘤大小数据和他们的肿瘤性质(0对应良性，1对应恶性)。你的朋友不幸诊断出这种癌症，需要根据其肿瘤大小预测肿瘤是良性还是恶性。</p><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"/img/body/m1f2.png","alt":"单属性的肿瘤预测","title":""}]</div>  </div><p>这是一个典型的<strong>分类问题</strong>(<em>Classification</em>)，需要计算机根据已有数据集指标分析给定输入的类别。在此问题中，肿瘤的大小是关键指标，肿瘤的性质是分类结果，输出值也就是离散的。</p><p>然而，通常的分类问题需要根据数据的多个属性进行分类。我们假设在上述问题的基础上，还知道每位患者的年龄，这样得到的数据集可以表示为二维平面上的一个离散点集。</p><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"/img/body/m1f3.png","alt":"多属性的肿瘤预测","title":""}]</div>  </div><p>我们可以尝试画一条直线，以尽可能区分开良性肿瘤数据点和恶性肿瘤数据点。当引入的数据属性种类越来越多时，可能需要用到平面甚至超平面(高维欧式空间中的线性子空间)进行划分。</p><h2 id="无监督学习">无监督学习</h2><p>与监督学习不同，我们给定的数据集<strong>没有标签</strong>。举例来说，在监督学习的肿瘤分类问题中，如果不标注每一位患者的肿瘤是良性还是恶性，那么在平面上展示的就是一堆用同样颜色标注的点，亦即没有标签的数据集。</p><p>此时，计算机能够做的就是执行<strong>聚类算法</strong>(<em>Clustering</em>)。在聚类过程中，算法会将数据点划分为多个簇，使得同一簇内的数据点相似度高，而不同簇间的数据点相似度低。</p><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"/img/body/m1f4.png","alt":"聚类算法","title":""}]</div>  </div><div class="flink"><div class="flink-name">参考网站</div><div class="flink-list">      <div class="flink-list-item">        <a href="https://www.bilibili.com/video/BV164411b7dx" title="课程视频" target="_blank">          <div class="flink-item-icon">            <img class="no-lightbox" src="/img/body/mlearning.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="课程视频" />          </div>          <div class="flink-item-name">课程视频</div>          <div class="flink-item-desc" title="吴恩达机器学习">吴恩达机器学习</div>        </a>      </div>      <div class="flink-list-item">        <a href="https://github.com/TheisTrue/MLofAndrew-Ng" title="课程讲义" target="_blank">          <div class="flink-item-icon">            <img class="no-lightbox" src="/img/body/github.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="课程讲义" />          </div>          <div class="flink-item-name">课程讲义</div>          <div class="flink-item-desc" title="吴恩达机器学习">吴恩达机器学习</div>        </a>      </div></div></div>]]>
     </content>
-    <id>https://www.shiiyu.xyz/posts/a3d74738.html</id>
-    <link href="https://www.shiiyu.xyz/posts/a3d74738.html"/>
-    <published>2026-04-21T16:00:00.000Z</published>
-    <summary>本节是吴恩达机器学习课程的第一篇学习日志</summary>
+    <id>https://www.shiiyu.xyz/posts/MLearning1.html</id>
+    <link href="https://www.shiiyu.xyz/posts/MLearning1.html"/>
+    <published>2026-04-23T16:00:00.000Z</published>
+    <summary>本节是吴恩达机器学习课程的学习日志(一)，主要介绍机器学习的定义和基本概念。</summary>
     <title>Machine Learning(一)</title>
-    <updated>2026-04-23T08:40:47.715Z</updated>
+    <updated>2026-04-24T10:20:31.815Z</updated>
   </entry>
 </feed>
