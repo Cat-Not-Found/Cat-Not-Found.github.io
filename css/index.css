@@ -5395,7 +5395,7 @@ figure.highlight pre .javascript .function {
   position: absolute;
   top: calc(50% - 7px);
   left: 0;
-  color: #1e3050;
+  color: #6495ed;
   content: '\f121';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
