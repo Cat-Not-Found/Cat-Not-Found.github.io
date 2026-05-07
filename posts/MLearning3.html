@@ -470,7 +470,7 @@ M347 1759 V0 H263 V1759 v1800 v1759 h84z"></path></svg></span></span></span><spa
   } else {
     window.loadOtherComment = loadTwikoo
   }
-})()</script></div><div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><script>
+})()</script></div><div class="aplayer no-destroy" data-id="8873664289" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><script>
 if (screen.width >= 768) {
   window.addEventListener('load', () => {
     const initTask = () => {
@@ -563,7 +563,11 @@ if (typeof window.live2d_initialized === 'undefined') {
 POWERMODE.shake = false;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
-</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script>(() => {
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><!-- 👇👇👇 新增下面这段覆盖代码 👇👇👇--><script>window.APlayerOptions = {
+  meting: {
+    api: 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id'
+  }
+}</script><!-- 👆👆👆 新增结束 👆👆👆--><script>(() => {
   const destroyAplayer = () => {
     if (window.aplayers) {
       for (let i = 0; i < window.aplayers.length; i++) {
