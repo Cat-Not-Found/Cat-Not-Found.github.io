@@ -1,1 +1,1 @@
-https://www.shiiyu.xyz/posts/MLearning8.html
+https://www.shiiyu.xyz/posts/PyTorch1.html
