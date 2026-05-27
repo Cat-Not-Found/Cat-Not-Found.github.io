@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.shiiyu.xyz/posts/PyTorch4.html</loc>
+    <lastmod>2026-05-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/MLearning5.html</loc>
+    <lastmod>2026-05-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/MLearning8.html</loc>
+    <lastmod>2026-05-27</lastmod>
+  </url>
+  <url>
     <loc>https://www.shiiyu.xyz/posts/PyTorch3.html</loc>
     <lastmod>2026-05-26</lastmod>
   </url>
   <url>
     <loc>https://www.shiiyu.xyz/posts/PyTorch2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/MLearning8.html</loc>
     <lastmod>2026-05-24</lastmod>
   </url>
   <url>
@@ -35,10 +43,6 @@
   <url>
     <loc>https://www.shiiyu.xyz/posts/MLearning2.html</loc>
     <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/MLearning5.html</loc>
-    <lastmod>2026-05-11</lastmod>
   </url>
   <url>
     <loc>https://www.shiiyu.xyz/posts/MLearning3.html</loc>
