@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.shiiyu.xyz/posts/PyTorch5.html</loc>
+    <lastmod>2026-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/PyTorch1.html</loc>
+    <lastmod>2026-05-27</lastmod>
+  </url>
+  <url>
     <loc>https://www.shiiyu.xyz/posts/PyTorch4.html</loc>
     <lastmod>2026-05-27</lastmod>
   </url>
@@ -19,10 +27,6 @@
   <url>
     <loc>https://www.shiiyu.xyz/posts/PyTorch2.html</loc>
     <lastmod>2026-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/PyTorch1.html</loc>
-    <lastmod>2026-05-23</lastmod>
   </url>
   <url>
     <loc>https://www.shiiyu.xyz/posts/MLearning1.html</loc>
