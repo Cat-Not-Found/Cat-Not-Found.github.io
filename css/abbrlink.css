@@ -1,0 +1,51 @@
+/* 
+ * 全局美化：正文链接样式
+ * 包含：蓝色文字、虚线下划线、右上角外链箭头
+ */
+
+/* 针对正文区域的所有链接 */
+.article-content a {
+  /* 1. 蓝色文字 */
+  color: #1890ff;
+  /* 去掉默认下划线 */
+  text-decoration: none; 
+  /* 关键：为伪元素定位做参照 */
+  position: relative; 
+}
+
+/* 2. 添加虚线下划线 (使用伪元素) */
+.article-content a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* 调整虚线与文字的距离 */
+  width: 100%;
+  height: 1px; /* 虚线高度 */
+  /* 虚线样式，颜色跟随文字 */
+  border-bottom: 1px dashed #1890ff; 
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+/* 3. 添加右上角小箭头 (使用伪元素) */
+.article-content a::before {
+  content: '\f08e'; /* FontAwesome 的跳转图标编码 */
+  font-family: 'Font Awesome 6 Free'; 
+  font-weight: 900; /* 实心图标需要 900 */
+  font-size: 0.7em; /* 图标比文字小一点 */
+  vertical-align: super; /* 让图标上标显示在右上角 */
+  margin-left: 2px; /* 图标和文字的间距 */
+  opacity: 0.8;
+  display: inline-block; /* 确保图标位置正常 */
+}
+
+/* 4. 鼠标悬停时的交互效果 */
+.article-content a:hover {
+  color: #ff7242; /* 悬停变色 (使用 Butterfly 主题色) */
+  text-decoration: none;
+}
+
+.article-content a:hover::after {
+  border-bottom-style: solid; /* 悬停时虚线变实线 */
+  width: 100%;
+}
