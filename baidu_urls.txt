@@ -1,10 +1,2 @@
 https://www.shiiyu.xyz/posts/PyTorch10.html
 https://www.shiiyu.xyz/posts/PyTorch9.html
-https://www.shiiyu.xyz/posts/PyTorch8.html
-https://www.shiiyu.xyz/posts/PyTorch7.html
-https://www.shiiyu.xyz/posts/PyTorch6.html
-https://www.shiiyu.xyz/posts/PyTorch5.html
-https://www.shiiyu.xyz/posts/PyTorch4.html
-https://www.shiiyu.xyz/posts/PyTorch3.html
-https://www.shiiyu.xyz/posts/PyTorch2.html
-https://www.shiiyu.xyz/posts/PyTorch1.html
