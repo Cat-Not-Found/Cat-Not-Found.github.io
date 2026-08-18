@@ -1,2 +1,2 @@
+https://www.shiiyu.xyz/posts/cs231n2.html
 https://www.shiiyu.xyz/posts/cs231n1.html
-https://www.shiiyu.xyz/posts/PyTorch10.html
