@@ -1,2 +1,2 @@
-https://www.shiiyu.xyz/posts/world.html
-https://www.shiiyu.xyz/posts/cs231n2.html
+https://www.shiiyu.xyz/posts/world2.html
+https://www.shiiyu.xyz/posts/world1.html
