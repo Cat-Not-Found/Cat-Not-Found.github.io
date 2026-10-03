@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/js/icon/iconfont.json</loc>
+    <loc>https://www.shiiyu.xyz/js/icon/demo_index.html</loc>
     
     <lastmod>2026-04-16</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/js/icon/demo_index.html</loc>
+    <loc>https://www.shiiyu.xyz/js/icon/iconfont.json</loc>
     
     <lastmod>2026-04-16</lastmod>
     
@@ -299,20 +299,6 @@
 
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.shiiyu.xyz/tags/world-model/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -334,6 +320,20 @@
   </url>
   
   <url>
+    <loc>https://www.shiiyu.xyz/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.shiiyu.xyz/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -348,21 +348,21 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/Transformer/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/GPT/</loc>
+    <loc>https://www.shiiyu.xyz/tags/Logistic/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/RoPE/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E6%AD%A3%E5%88%99%E5%8C%96/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -397,42 +397,63 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E6%A0%B8%E5%87%BD%E6%95%B0/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E5%88%86%E7%B1%BB/</loc>
+    <loc>https://www.shiiyu.xyz/tags/Transformer/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/Logistic/</loc>
+    <loc>https://www.shiiyu.xyz/tags/GPT/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E6%AD%A3%E5%88%99%E5%8C%96/</loc>
+    <loc>https://www.shiiyu.xyz/tags/RoPE/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E5%86%B3%E7%AD%96%E6%A0%91/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -467,48 +488,6 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E5%86%B3%E7%AD%96%E6%A0%91/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.shiiyu.xyz/tags/%E6%9D%8E%E6%B2%90/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -530,7 +509,21 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/tags/Softmax/</loc>
+    <loc>https://www.shiiyu.xyz/tags/%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E6%A0%B8%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -579,7 +572,28 @@
   </url>
   
   <url>
+    <loc>https://www.shiiyu.xyz/tags/Softmax/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/%E5%87%B8%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.shiiyu.xyz/tags/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/tags/RNN/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -594,20 +608,6 @@
   
   <url>
     <loc>https://www.shiiyu.xyz/tags/Adam/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/RNN/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiiyu.xyz/tags/%E5%87%B8%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -658,13 +658,6 @@
   </url>
   
   <url>
-    <loc>https://www.shiiyu.xyz/categories/AI/CS231n/</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.shiiyu.xyz/categories/AI/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -673,6 +666,13 @@
   
   <url>
     <loc>https://www.shiiyu.xyz/categories/AI/world-model/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiiyu.xyz/categories/AI/CS231n/</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

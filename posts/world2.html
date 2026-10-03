@@ -162,7 +162,7 @@
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><link rel="stylesheet" href="/css/transpancy.css"><link rel="stylesheet" href="/css/modify.css"><link rel="stylesheet" href="/css/abbrlink.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="時雨のBlog" type="application/atom+xml">
+}</script><link rel="stylesheet" href="/css/transpancy.css"><link rel="stylesheet" href="/css/modify.css"><link rel="stylesheet" href="/css/abbrlink.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="時雨のBlog" type="application/atom+xml">
 </head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
   const $loadingBox = document.getElementById('loading-box')
   const $body = document.body
@@ -484,7 +484,7 @@ M347 1759 V0 H263 V1759 v1800 v1759 h84z"></path></svg></span></span></span><spa
   } else {
     window.loadOtherComment = loadTwikoo
   }
-})()</script></div><div class="aplayer no-destroy" data-id="12798092132" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"> </div><script>
+})()</script></div><div class="aplayer no-destroy" data-id="12798092132" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random" data-api="https://api.injahow.cn/meting/?server=:server&amp;type=:type&amp;id=:id"> </div><script>
 if (screen.width >= 768) {
   window.addEventListener('load', () => {
     const initTask = () => {
@@ -577,11 +577,7 @@ if (typeof window.live2d_initialized === 'undefined') {
 POWERMODE.shake = false;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
-</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><!-- 👇👇👇 新增下面这段覆盖代码 👇👇👇--><script>window.APlayerOptions = {
-  meting: {
-    api: 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id'
-  }
-}</script><!-- 👆👆👆 新增结束 👆👆👆--><script>(() => {
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><!-- 👇👇👇 Meting API 覆盖（修复播放失败）👇👇👇--><!-- 说明：主题加载的是 MetingJS 1.2，其源码中的 API 取值逻辑为--><!--   var b = 'https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r'--><!--   'undefined' != typeof meting_api && (b = meting_api)   // 全局变量--><!--   var g = d.dataset.api || b                             // 元素上的 data-api 优先级最高--><!-- 原先这里写的是 window.APlayerOptions = { meting: { api: ... } }，MetingJS 并不读取该属性，--><!-- 所以实际一直在用内置默认 API（api.i-meto.com），而它的音频接口现已失效（401 鉴权失败 / 404），--><!-- 表现为播放器能显示歌单、但一播放就报 an error occurs 并自动跳下一首。--><script>window.meting_api = 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id'</script><!-- 👆👆👆 覆盖结束（优先级更高的写法见 _config.butterfly.yml 中播放器 div 的 data-api 属性）👆👆👆--><script>(() => {
   const destroyAplayer = () => {
     if (window.aplayers) {
       for (let i = 0; i < window.aplayers.length; i++) {
@@ -704,7 +700,7 @@ document.documentElement.getAttribute('data-theme') === 'light' ?
 var cssText = `top: 0; background: ${showBg};`
 document.getElementById('app-refresh').style.cssText = cssText
 }
-}</script><script async="" data-pjax="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"></div><hr><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+}</script><script async="" data-pjax="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"></div><hr><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div><!-- hexo injector body_end start --><script async="" src="/js/icon/iconfont.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wow');
     arr[i].classList.add('animate__zoomIn');
@@ -720,4 +716,4 @@ for(var i = 0;i<arr.length;i++){
     arr[i].setAttribute('data-wow-delay', '');
     arr[i].setAttribute('data-wow-offset', '');
     arr[i].setAttribute('data-wow-iteration', '');
-  }</script></div><script defer="" src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer="" src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script async="" src="/js/icon/iconfont.js"></script><!-- hexo injector body_end end --></body></html>
+  }</script></div><script defer="" src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer="" src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
