@@ -410,9 +410,9 @@
             
             <tag> 李沐 </tag>
             
-            <tag> 卷积 </tag>
-            
             <tag> CNN </tag>
+            
+            <tag> 卷积 </tag>
             
         </tags>
       
@@ -801,6 +801,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"Shiiyu小屋","short_name":"Shiiyu小屋","scope":"/","start_url":"/","theme_color":"#212121","background_color":"#212121","display":"standalone","icons":[{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -817,61 +828,6 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/abbrlink.css"/>
-      <url>/css/abbrlink.css</url>
-      
-        <content type="html"><![CDATA[/*  * 全局美化：正文链接样式 * 包含：蓝色文字、虚线下划线、右上角外链箭头 *//* 针对正文区域的所有链接 */.article-content a {  /* 1. 蓝色文字 */  color: #1890ff;  /* 去掉默认下划线 */  text-decoration: none;   /* 关键：为伪元素定位做参照 */  position: relative; }/* 2. 添加虚线下划线 (使用伪元素) */.article-content a::after {  content: '';  position: absolute;  left: 0;  bottom: -2px; /* 调整虚线与文字的距离 */  width: 100%;  height: 1px; /* 虚线高度 */  /* 虚线样式，颜色跟随文字 */  border-bottom: 1px dashed #1890ff;   opacity: 0.6;  transition: all 0.3s ease;}/* 3. 添加右上角小箭头 (使用伪元素) */.article-content a::before {  content: '\f08e'; /* FontAwesome 的跳转图标编码 */  font-family: 'Font Awesome 6 Free';   font-weight: 900; /* 实心图标需要 900 */  font-size: 0.7em; /* 图标比文字小一点 */  vertical-align: super; /* 让图标上标显示在右上角 */  margin-left: 2px; /* 图标和文字的间距 */  opacity: 0.8;  display: inline-block; /* 确保图标位置正常 */}/* 4. 鼠标悬停时的交互效果 */.article-content a:hover {  color: #ff7242; /* 悬停变色 (使用 Butterfly 主题色) */  text-decoration: none;}.article-content a:hover::after {  border-bottom-style: solid; /* 悬停时虚线变实线 */  width: 100%;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/transpancy.css"/>
-      <url>/css/transpancy.css</url>
-      
-        <content type="html"><![CDATA[/* 文章页背景 */.layout_post>#post {/* 以下代表透明度为0.7 可以自行修改*/  background: rgba(255,255,255,0.9);}/* 所有页面背景 */#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {/* 以下代表透明度为0.7 */  background: rgba(255,255,255,0.9);}/*侧边卡片的透明度 */:root {  --card-bg: rgba(255,255,255,0.9);}/* 页脚透明 */#footer {/* 以下代表透明度为0.7 */  background: rgba(255,255,255,0);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/manifest.json"/>
-      <url>/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"Shiiyu小屋","short_name":"Shiiyu小屋","scope":"/","start_url":"/","theme_color":"#212121","background_color":"#212121","display":"standalone","icons":[{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/img/siteicon/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"/img/siteicon/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/modify.css"/>
-      <url>/css/modify.css</url>
-      
-        <content type="html"><![CDATA[#page-header {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 480px !important;}#page-header #post-info {  bottom: 40px !important;  text-align: center;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 300px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 450px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;    background-position: right center !important;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0.5);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}@media screen and (max-width: 768px) {  #page-header.post-bg,  #page-header.not-home-page {    background-position: right center !important;  }}]]></content>
       
     </entry>
     
@@ -901,10 +857,21 @@
     
     <entry>
       <title></title>
-      <link href="/js/coin/coin.js"/>
-      <url>/js/coin/coin.js</url>
+      <link href="/css/modify.css"/>
+      <url>/css/modify.css</url>
       
-        <content type="html"><![CDATA[var tipButtons = document.querySelectorAll(".tip-button");function coinAudio() {  var coinAudio = document.getElementById("coinAudio");  if (coinAudio) {    coinAudio.play(); //有音频时播放  }}// Loop through all buttons (allows for multiple buttons on page)tipButtons.forEach(button => {  var coin = button.querySelector(".coin");  // The larger the number, the slower the animation  coin.maxMoveLoopCount = 90;  button.addEventListener("click", () => {    if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true; //媒体选择    if (button.clicked) return;    button.classList.add("clicked");    // Wait to start flipping th coin because of the button tilt animation    setTimeout(() => {      // Randomize the flipping speeds just for fun      coin.sideRotationCount = Math.floor(Math.random() * 5) * 90;      coin.maxFlipAngle = (Math.floor(Math.random() * 4) + 3) * Math.PI;      button.clicked = true;      flipCoin();      coinAudio();    }, 50);  });  var flipCoin = () => {    coin.moveLoopCount = 0;    flipCoinLoop();  };  var resetCoin = () => {    coin.style.setProperty("--coin-x-multiplier", 0);    coin.style.setProperty("--coin-scale-multiplier", 0);    coin.style.setProperty("--coin-rotation-multiplier", 0);    coin.style.setProperty("--shine-opacity-multiplier", 0.4);    coin.style.setProperty("--shine-bg-multiplier", "50%");    coin.style.setProperty("opacity", 1);    // Delay to give the reset animation some time before you can click again    setTimeout(() => {      button.clicked = false;    }, 300);  };  var flipCoinLoop = () => {    coin.moveLoopCount++;    var percentageCompleted = coin.moveLoopCount / coin.maxMoveLoopCount;    coin.angle = -coin.maxFlipAngle * Math.pow(percentageCompleted - 1, 2) + coin.maxFlipAngle;    // Calculate the scale and position of the coin moving through the air    coin.style.setProperty("--coin-y-multiplier", -11 * Math.pow(percentageCompleted * 2 - 1, 4) + 11);    coin.style.setProperty("--coin-x-multiplier", percentageCompleted);    coin.style.setProperty("--coin-scale-multiplier", percentageCompleted * 0.6);    coin.style.setProperty("--coin-rotation-multiplier", percentageCompleted * coin.sideRotationCount);    // Calculate the scale and position values for the different coin faces    // The math uses sin/cos wave functions to similate the circular motion of 3D spin    coin.style.setProperty("--front-scale-multiplier", Math.max(Math.cos(coin.angle), 0));    coin.style.setProperty("--front-y-multiplier", Math.sin(coin.angle));    coin.style.setProperty("--middle-scale-multiplier", Math.abs(Math.cos(coin.angle), 0));    coin.style.setProperty("--middle-y-multiplier", Math.cos((coin.angle + Math.PI / 2) % Math.PI));    coin.style.setProperty("--back-scale-multiplier", Math.max(Math.cos(coin.angle - Math.PI), 0));    coin.style.setProperty("--back-y-multiplier", Math.sin(coin.angle - Math.PI));    coin.style.setProperty("--shine-opacity-multiplier", 4 * Math.sin((coin.angle + Math.PI / 2) % Math.PI) - 3.2);    coin.style.setProperty("--shine-bg-multiplier", -40 * (Math.cos((coin.angle + Math.PI / 2) % Math.PI) - 0.5) + "%");    // Repeat animation loop    if (coin.moveLoopCount < coin.maxMoveLoopCount) {      if (coin.moveLoopCount === coin.maxMoveLoopCount - 6) button.classList.add("shrink-landing");      window.requestAnimationFrame(flipCoinLoop);    } else {      button.classList.add("coin-landed");      coin.style.setProperty("opacity", 0);      setTimeout(() => {        button.classList.remove("clicked", "shrink-landing", "coin-landed");        setTimeout(() => {          resetCoin();        }, 300);      }, 1500);    }  };});]]></content>
+        <content type="html"><![CDATA[#page-header {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 480px !important;}#page-header #post-info {  bottom: 40px !important;  text-align: center;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 300px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 450px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;    background-position: right center !important;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0.5);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}@media screen and (max-width: 768px) {  #page-header.post-bg,  #page-header.not-home-page {    background-position: right center !important;  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -912,10 +879,32 @@
     
     <entry>
       <title></title>
-      <link href="/js/icon/iconfont.css"/>
-      <url>/js/icon/iconfont.css</url>
+      <link href="/css/abbrlink.css"/>
+      <url>/css/abbrlink.css</url>
       
-        <content type="html"><![CDATA[@font-face {  font-family: "iconfont"; /* Project id 5161904 */  src: url('iconfont.woff2?t=1776316559108') format('woff2'),       url('iconfont.woff?t=1776316559108') format('woff'),       url('iconfont.ttf?t=1776316559108') format('truetype');}.iconfont {  font-family: "iconfont" !important;  font-size: 16px;  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}.icon-message:before {  content: "\e613";}.icon-moon:before {  content: "\e614";}.icon-shapes:before {  content: "\e615";}.icon-shuffle:before {  content: "\e616";}.icon-language:before {  content: "\e617";}.icon-tags:before {  content: "\e618";}.icon-train:before {  content: "\e619";}.icon-warning:before {  content: "\e61a";}.icon-circle-arrow-up-right-1:before {  content: "\e61b";}.icon-fish:before {  content: "\e61c";}.icon-envelope:before {  content: "\e61d";}.icon-music:before {  content: "\e61e";}.icon-fan:before {  content: "\e61f";}.icon-heartbeat-bold:before {  content: "\e620";}.icon-link:before {  content: "\e621";}.icon-chevron-left:before {  content: "\e622";}.icon-rocket:before {  content: "\e623";}.icon-lightbulb:before {  content: "\e624";}.icon-shoe-prints:before {  content: "\e625";}.icon-images:before {  content: "\e626";}.icon-box-archive:before {  content: "\e627";}.icon-artstation:before {  content: "\e628";}.icon-paper-plane:before {  content: "\e629";}.icon-house-chimney:before {  content: "\e62a";}.icon-grip-vertical:before {  content: "\e62b";}.icon-bars:before {  content: "\e62c";}.icon-arrows-left-right:before {  content: "\e62d";}.icon-book-open:before {  content: "\e62e";}.icon-list-ul:before {  content: "\e62f";}.icon-comments:before {  content: "\e630";}.icon-comment-sms:before {  content: "\e631";}.icon-angles-right:before {  content: "\e632";}.icon-tag:before {  content: "\e633";}.icon-chevron-right:before {  content: "\e634";}.icon-radio:before {  content: "\e635";}.icon-forward:before {  content: "\e636";}.icon-window-restore:before {  content: "\e637";}.icon-backward:before {  content: "\e638";}.icon-download:before {  content: "\e639";}.icon-comment-medical:before {  content: "\e63a";}.icon-paste:before {  content: "\e63b";}.icon-arrow-rotate-right:before {  content: "\e63c";}.icon-play:before {  content: "\e63d";}.icon-circle-xmark:before {  content: "\e63e";}.icon-angle-down:before {  content: "\e63f";}.icon-chart-line:before {  content: "\e640";}.icon-pencil:before {  content: "\e641";}.icon-thumbtack:before {  content: "\e642";}.icon-location-dot:before {  content: "\e643";}.icon-fw-fire:before {  content: "\e644";}.icon-calendar-days:before {  content: "\e645";}.icon-angle-right:before {  content: "\e646";}.icon-dice-d20:before {  content: "\e647";}.icon-instagram:before {  content: "\e648";}.icon-xmark:before {  content: "\e649";}.icon-spinner:before {  content: "\e64a";}.icon-bullhorn:before {  content: "\e64b";}.icon-stream:before {  content: "\e64c";}.icon-caret-left:before {  content: "\e64d";}.icon-folder-open:before {  content: "\e64e";}.icon-thumbs-up:before {  content: "\e64f";}.icon-angle-double-down:before {  content: "\e650";}.icon-sign-out-alt:before {  content: "\e651";}.icon-angle-double-left:before {  content: "\e652";}.icon-angle-double-right:before {  content: "\e653";}.icon-angle-left:before {  content: "\e654";}.icon-fw-eye:before {  content: "\e655";}.icon-repeat:before {  content: "\e656";}.icon-shuffle1:before {  content: "\e657";}.icon-arrows-rotate:before {  content: "\e658";}.icon-pause:before {  content: "\e659";}.icon-heartbeat:before {  content: "\e65a";}.icon-a-2:before {  content: "\e65b";}.icon-jike:before {  content: "\e65c";}.icon-heartbeat1:before {  content: "\e65d";}.icon-rss:before {  content: "\e65e";}.icon-qq:before {  content: "\e65f";}.icon-github:before {  content: "\e660";}.icon-bilibili:before {  content: "\e661";}.icon-paper-plane1:before {  content: "\e662";}.icon-hashtag:before {  content: "\e663";}.icon-hand-heart-fill:before {  content: "\e664";}.icon-plant-fill:before {  content: "\e665";}.icon-qrcode:before {  content: "\e666";}.icon-weibo:before {  content: "\e667";}.icon-copyright:before {  content: "\e668";}.icon-bolt:before {  content: "\e669";}.icon-circle-info:before {  content: "\e66a";}.icon-triangle-exclamation:before {  content: "\e66b";}.icon-circle-check:before {  content: "\e66c";}.icon-circle-minus:before {  content: "\e66d";}.icon-circle-plus:before {  content: "\e66e";}.icon-circle-dot:before {  content: "\e66f";}.icon-scissors:before {  content: "\e670";}.icon-arrow-down:before {  content: "\e671";}.icon-dengpao:before {  content: "\e672";}.icon-danmu:before {  content: "\e673";}.icon-zonglan:before {  content: "\e674";}.icon-linggan:before {  content: "\e675";}.icon-sanmingzhi:before {  content: "\e676";}.icon-keyboard:before {  content: "\e677";}.icon-tiktok:before {  content: "\e678";}.icon-creative-commons-nd-line:before {  content: "\e679";}.icon-creative-commons-by-line:before {  content: "\e67a";}.icon-creative-commons-nc-line:before {  content: "\e67b";}.icon-copyright-line:before {  content: "\e67c";}.icon-font:before {  content: "\e67d";}.icon-stopwatch:before {  content: "\e67e";}.icon-file-lines:before {  content: "\e67f";}.icon-square-poll-vertical:before {  content: "\e680";}.icon-universal-access:before {  content: "\e681";}.icon-hourglass-start:before {  content: "\e682";}.icon-anzhiyu:before {  content: "\e683";}.icon-arrow-right:before {  content: "\e600";}.icon-arrow-left:before {  content: "\e601";}.icon-dice:before {  content: "\e602";}.icon-copy:before {  content: "\e603";}.icon-cube:before {  content: "\e604";}.icon-circle-arrow-right:before {  content: "\e605";}.icon-clock:before {  content: "\e606";}.icon-book:before {  content: "\e607";}.icon-calendar-alt:before {  content: "\e608";}.icon-eye-outline:before {  content: "\e609";}.icon-circle-half-stroke:before {  content: "\e60a";}.icon-arrow-up:before {  content: "\e60b";}.icon-file-word:before {  content: "\e60c";}.icon-fire:before {  content: "\e60d";}.icon-dove:before {  content: "\e60e";}.icon-gear:before {  content: "\e60f";}.icon-inbox:before {  content: "\e610";}.icon-history:before {  content: "\e611";}.icon-magnifying-glass:before {  content: "\e612";}]]></content>
+        <content type="html"><![CDATA[/*  * 全局美化：正文链接样式 * 包含：蓝色文字、虚线下划线、右上角外链箭头 *//* 针对正文区域的所有链接 */.article-content a {  /* 1. 蓝色文字 */  color: #1890ff;  /* 去掉默认下划线 */  text-decoration: none;   /* 关键：为伪元素定位做参照 */  position: relative; }/* 2. 添加虚线下划线 (使用伪元素) */.article-content a::after {  content: '';  position: absolute;  left: 0;  bottom: -2px; /* 调整虚线与文字的距离 */  width: 100%;  height: 1px; /* 虚线高度 */  /* 虚线样式，颜色跟随文字 */  border-bottom: 1px dashed #1890ff;   opacity: 0.6;  transition: all 0.3s ease;}/* 3. 添加右上角小箭头 (使用伪元素) */.article-content a::before {  content: '\f08e'; /* FontAwesome 的跳转图标编码 */  font-family: 'Font Awesome 6 Free';   font-weight: 900; /* 实心图标需要 900 */  font-size: 0.7em; /* 图标比文字小一点 */  vertical-align: super; /* 让图标上标显示在右上角 */  margin-left: 2px; /* 图标和文字的间距 */  opacity: 0.8;  display: inline-block; /* 确保图标位置正常 */}/* 4. 鼠标悬停时的交互效果 */.article-content a:hover {  color: #ff7242; /* 悬停变色 (使用 Butterfly 主题色) */  text-decoration: none;}.article-content a:hover::after {  border-bottom-style: solid; /* 悬停时虚线变实线 */  width: 100%;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/transpancy.css"/>
+      <url>/css/transpancy.css</url>
+      
+        <content type="html"><![CDATA[/* 文章页背景 */.layout_post>#post {/* 以下代表透明度为0.7 可以自行修改*/  background: rgba(255,255,255,0.9);}/* 所有页面背景 */#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {/* 以下代表透明度为0.7 */  background: rgba(255,255,255,0.9);}/*侧边卡片的透明度 */:root {  --card-bg: rgba(255,255,255,0.9);}/* 页脚透明 */#footer {/* 以下代表透明度为0.7 */  background: rgba(255,255,255,0);}]]></content>
       
     </entry>
     
@@ -956,6 +945,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/icon/iconfont.css"/>
+      <url>/js/icon/iconfont.css</url>
+      
+        <content type="html"><![CDATA[@font-face {  font-family: "iconfont"; /* Project id 5161904 */  src: url('iconfont.woff2?t=1776316559108') format('woff2'),       url('iconfont.woff?t=1776316559108') format('woff'),       url('iconfont.ttf?t=1776316559108') format('truetype');}.iconfont {  font-family: "iconfont" !important;  font-size: 16px;  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}.icon-message:before {  content: "\e613";}.icon-moon:before {  content: "\e614";}.icon-shapes:before {  content: "\e615";}.icon-shuffle:before {  content: "\e616";}.icon-language:before {  content: "\e617";}.icon-tags:before {  content: "\e618";}.icon-train:before {  content: "\e619";}.icon-warning:before {  content: "\e61a";}.icon-circle-arrow-up-right-1:before {  content: "\e61b";}.icon-fish:before {  content: "\e61c";}.icon-envelope:before {  content: "\e61d";}.icon-music:before {  content: "\e61e";}.icon-fan:before {  content: "\e61f";}.icon-heartbeat-bold:before {  content: "\e620";}.icon-link:before {  content: "\e621";}.icon-chevron-left:before {  content: "\e622";}.icon-rocket:before {  content: "\e623";}.icon-lightbulb:before {  content: "\e624";}.icon-shoe-prints:before {  content: "\e625";}.icon-images:before {  content: "\e626";}.icon-box-archive:before {  content: "\e627";}.icon-artstation:before {  content: "\e628";}.icon-paper-plane:before {  content: "\e629";}.icon-house-chimney:before {  content: "\e62a";}.icon-grip-vertical:before {  content: "\e62b";}.icon-bars:before {  content: "\e62c";}.icon-arrows-left-right:before {  content: "\e62d";}.icon-book-open:before {  content: "\e62e";}.icon-list-ul:before {  content: "\e62f";}.icon-comments:before {  content: "\e630";}.icon-comment-sms:before {  content: "\e631";}.icon-angles-right:before {  content: "\e632";}.icon-tag:before {  content: "\e633";}.icon-chevron-right:before {  content: "\e634";}.icon-radio:before {  content: "\e635";}.icon-forward:before {  content: "\e636";}.icon-window-restore:before {  content: "\e637";}.icon-backward:before {  content: "\e638";}.icon-download:before {  content: "\e639";}.icon-comment-medical:before {  content: "\e63a";}.icon-paste:before {  content: "\e63b";}.icon-arrow-rotate-right:before {  content: "\e63c";}.icon-play:before {  content: "\e63d";}.icon-circle-xmark:before {  content: "\e63e";}.icon-angle-down:before {  content: "\e63f";}.icon-chart-line:before {  content: "\e640";}.icon-pencil:before {  content: "\e641";}.icon-thumbtack:before {  content: "\e642";}.icon-location-dot:before {  content: "\e643";}.icon-fw-fire:before {  content: "\e644";}.icon-calendar-days:before {  content: "\e645";}.icon-angle-right:before {  content: "\e646";}.icon-dice-d20:before {  content: "\e647";}.icon-instagram:before {  content: "\e648";}.icon-xmark:before {  content: "\e649";}.icon-spinner:before {  content: "\e64a";}.icon-bullhorn:before {  content: "\e64b";}.icon-stream:before {  content: "\e64c";}.icon-caret-left:before {  content: "\e64d";}.icon-folder-open:before {  content: "\e64e";}.icon-thumbs-up:before {  content: "\e64f";}.icon-angle-double-down:before {  content: "\e650";}.icon-sign-out-alt:before {  content: "\e651";}.icon-angle-double-left:before {  content: "\e652";}.icon-angle-double-right:before {  content: "\e653";}.icon-angle-left:before {  content: "\e654";}.icon-fw-eye:before {  content: "\e655";}.icon-repeat:before {  content: "\e656";}.icon-shuffle1:before {  content: "\e657";}.icon-arrows-rotate:before {  content: "\e658";}.icon-pause:before {  content: "\e659";}.icon-heartbeat:before {  content: "\e65a";}.icon-a-2:before {  content: "\e65b";}.icon-jike:before {  content: "\e65c";}.icon-heartbeat1:before {  content: "\e65d";}.icon-rss:before {  content: "\e65e";}.icon-qq:before {  content: "\e65f";}.icon-github:before {  content: "\e660";}.icon-bilibili:before {  content: "\e661";}.icon-paper-plane1:before {  content: "\e662";}.icon-hashtag:before {  content: "\e663";}.icon-hand-heart-fill:before {  content: "\e664";}.icon-plant-fill:before {  content: "\e665";}.icon-qrcode:before {  content: "\e666";}.icon-weibo:before {  content: "\e667";}.icon-copyright:before {  content: "\e668";}.icon-bolt:before {  content: "\e669";}.icon-circle-info:before {  content: "\e66a";}.icon-triangle-exclamation:before {  content: "\e66b";}.icon-circle-check:before {  content: "\e66c";}.icon-circle-minus:before {  content: "\e66d";}.icon-circle-plus:before {  content: "\e66e";}.icon-circle-dot:before {  content: "\e66f";}.icon-scissors:before {  content: "\e670";}.icon-arrow-down:before {  content: "\e671";}.icon-dengpao:before {  content: "\e672";}.icon-danmu:before {  content: "\e673";}.icon-zonglan:before {  content: "\e674";}.icon-linggan:before {  content: "\e675";}.icon-sanmingzhi:before {  content: "\e676";}.icon-keyboard:before {  content: "\e677";}.icon-tiktok:before {  content: "\e678";}.icon-creative-commons-nd-line:before {  content: "\e679";}.icon-creative-commons-by-line:before {  content: "\e67a";}.icon-creative-commons-nc-line:before {  content: "\e67b";}.icon-copyright-line:before {  content: "\e67c";}.icon-font:before {  content: "\e67d";}.icon-stopwatch:before {  content: "\e67e";}.icon-file-lines:before {  content: "\e67f";}.icon-square-poll-vertical:before {  content: "\e680";}.icon-universal-access:before {  content: "\e681";}.icon-hourglass-start:before {  content: "\e682";}.icon-anzhiyu:before {  content: "\e683";}.icon-arrow-right:before {  content: "\e600";}.icon-arrow-left:before {  content: "\e601";}.icon-dice:before {  content: "\e602";}.icon-copy:before {  content: "\e603";}.icon-cube:before {  content: "\e604";}.icon-circle-arrow-right:before {  content: "\e605";}.icon-clock:before {  content: "\e606";}.icon-book:before {  content: "\e607";}.icon-calendar-alt:before {  content: "\e608";}.icon-eye-outline:before {  content: "\e609";}.icon-circle-half-stroke:before {  content: "\e60a";}.icon-arrow-up:before {  content: "\e60b";}.icon-file-word:before {  content: "\e60c";}.icon-fire:before {  content: "\e60d";}.icon-dove:before {  content: "\e60e";}.icon-gear:before {  content: "\e60f";}.icon-inbox:before {  content: "\e610";}.icon-history:before {  content: "\e611";}.icon-magnifying-glass:before {  content: "\e612";}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/icon/iconfont.js"/>
       <url>/js/icon/iconfont.js</url>
       
@@ -966,11 +966,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/coin/coin.js"/>
+      <url>/js/coin/coin.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var tipButtons = document.querySelectorAll(".tip-button");function coinAudio() {  var coinAudio = document.getElementById("coinAudio");  if (coinAudio) {    coinAudio.play(); //有音频时播放  }}// Loop through all buttons (allows for multiple buttons on page)tipButtons.forEach(button => {  var coin = button.querySelector(".coin");  // The larger the number, the slower the animation  coin.maxMoveLoopCount = 90;  button.addEventListener("click", () => {    if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true; //媒体选择    if (button.clicked) return;    button.classList.add("clicked");    // Wait to start flipping th coin because of the button tilt animation    setTimeout(() => {      // Randomize the flipping speeds just for fun      coin.sideRotationCount = Math.floor(Math.random() * 5) * 90;      coin.maxFlipAngle = (Math.floor(Math.random() * 4) + 3) * Math.PI;      button.clicked = true;      flipCoin();      coinAudio();    }, 50);  });  var flipCoin = () => {    coin.moveLoopCount = 0;    flipCoinLoop();  };  var resetCoin = () => {    coin.style.setProperty("--coin-x-multiplier", 0);    coin.style.setProperty("--coin-scale-multiplier", 0);    coin.style.setProperty("--coin-rotation-multiplier", 0);    coin.style.setProperty("--shine-opacity-multiplier", 0.4);    coin.style.setProperty("--shine-bg-multiplier", "50%");    coin.style.setProperty("opacity", 1);    // Delay to give the reset animation some time before you can click again    setTimeout(() => {      button.clicked = false;    }, 300);  };  var flipCoinLoop = () => {    coin.moveLoopCount++;    var percentageCompleted = coin.moveLoopCount / coin.maxMoveLoopCount;    coin.angle = -coin.maxFlipAngle * Math.pow(percentageCompleted - 1, 2) + coin.maxFlipAngle;    // Calculate the scale and position of the coin moving through the air    coin.style.setProperty("--coin-y-multiplier", -11 * Math.pow(percentageCompleted * 2 - 1, 4) + 11);    coin.style.setProperty("--coin-x-multiplier", percentageCompleted);    coin.style.setProperty("--coin-scale-multiplier", percentageCompleted * 0.6);    coin.style.setProperty("--coin-rotation-multiplier", percentageCompleted * coin.sideRotationCount);    // Calculate the scale and position values for the different coin faces    // The math uses sin/cos wave functions to similate the circular motion of 3D spin    coin.style.setProperty("--front-scale-multiplier", Math.max(Math.cos(coin.angle), 0));    coin.style.setProperty("--front-y-multiplier", Math.sin(coin.angle));    coin.style.setProperty("--middle-scale-multiplier", Math.abs(Math.cos(coin.angle), 0));    coin.style.setProperty("--middle-y-multiplier", Math.cos((coin.angle + Math.PI / 2) % Math.PI));    coin.style.setProperty("--back-scale-multiplier", Math.max(Math.cos(coin.angle - Math.PI), 0));    coin.style.setProperty("--back-y-multiplier", Math.sin(coin.angle - Math.PI));    coin.style.setProperty("--shine-opacity-multiplier", 4 * Math.sin((coin.angle + Math.PI / 2) % Math.PI) - 3.2);    coin.style.setProperty("--shine-bg-multiplier", -40 * (Math.cos((coin.angle + Math.PI / 2) % Math.PI) - 0.5) + "%");    // Repeat animation loop    if (coin.moveLoopCount < coin.maxMoveLoopCount) {      if (coin.moveLoopCount === coin.maxMoveLoopCount - 6) button.classList.add("shrink-landing");      window.requestAnimationFrame(flipCoinLoop);    } else {      button.classList.add("coin-landed");      coin.style.setProperty("opacity", 0);      setTimeout(() => {        button.classList.remove("clicked", "shrink-landing", "coin-landed");        setTimeout(() => {          resetCoin();        }, 300);      }, 1500);    }  };});]]></content>
       
     </entry>
     
