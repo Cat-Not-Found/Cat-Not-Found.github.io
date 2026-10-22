@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.shiiyu.xyz/posts/world5.html</loc>
-    <lastmod>2026-10-21</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/flow.html</loc>
-    <lastmod>2026-10-16</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/diffusion.html</loc>
-    <lastmod>2026-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/world4.html</loc>
-    <lastmod>2026-10-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/world3.html</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.shiiyu.xyz/posts/world2.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <loc>https://www.shiiyu.xyz/posts/world6.html</loc>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://www.shiiyu.xyz/posts/world1.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/world2.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/world3.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/world4.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/world5.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/diffusion.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.shiiyu.xyz/posts/flow.html</loc>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://www.shiiyu.xyz/posts/PyTorch6.html</loc>
